@@ -23,9 +23,25 @@ For this project, I was interestested in using the 2253 job listings scraped fro
 The csv file is downloaded from Kaggle, which is originally scraped from glassdoor. The jupyter notebook file contains codes of data preprocessing, data visualizations and a model prediciton of the average salary of data analyst.
 
 ## Results
-* There are more job opportunities in industries like IT, Staffing & Outsourcing and Health Care Services & Hospitals, or in sectors like IT, Business Services and Finance. The top 3 states that are demanding higher number of data analysts are California, Texas and New York.
-* If you are planning to be a data analyst, expect a minimum salary range of 24K to 113K, or a maximum salary range of 38K to 190K. If you are in California, expect a larger range of salary distribution than any other states.  
-* The independent variables chose for the model are 'Job Title', 'Rating', 'Location', 'Headquarters', 'Size', 'Type of ownership', 'Sector', 'State', 'Max Revenue'. However, none of these are significant enough to predict the average salary. If we could find some more data sets,the r-squared value could be improved by adding more features that are more significant.  
+* Who have higher demand for data analysts?
+  * Top 3 Industries: IT, Staffing & Outsourcing and Health Care Services & Hospitals
+  * Top 3 Sectors: IT, Business Services and Finance. 
+  * Top 3 States: California, Texas and New York.
+
+* How much salary can a data analyst expect ?
+  * Minimum Salary Range (USD): 24K -113K (Mean: 54K)
+  * Maximum Salary Range (USD): 38K -190K (Mean: 90K)
+  * If you are in California, your salary could be really low or really high
+  * Company size does not really have any impact on your salary amount
+
+* What to include in your resume or interview/ What skills are required? 
+  * Demonstrate your data analytics, problem-solving, communication and teamwork skills. Pay attention to their requirements of how many years of experience. A bachelor's degree will be required for most of the data analyst positions.
+
+* What major should I choose if I want to be a data analyst?
+  * There are a lot of majors that could give you a good knowledge of data analysis. However, based on this study, choosing Computer Science major would increase your  chances of getting a job because it matches more job opportunities. 
+
+* How would the data analyst job be like?
+  * You will be working on a lot of data analytics projects, most likely in a team. You may also need to work with clients, deal with products, and create reports.
       
 ## Acknowledgements
 Must give credit to Kaggle and Glassdoor for the data. You can find other descriptive information at the Kaggle link available [here](https://www.kaggle.com/andrewmvd/data-analyst-jobs). I also referrenced some codes learned from Udacity Data Science Nanodegree for the part where we define a function to find the optimal linear model and coefficient weights of the model. 
