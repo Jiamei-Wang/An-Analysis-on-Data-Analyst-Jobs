@@ -11,13 +11,15 @@
 There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python. 
 
 ## Project Motivation
-For this project, I was interestested in using the 2253 job listings scraped from glassdoor to do an analysis on Data Analyst Jobs. The scraped data was found on Kaggle. Here are the research questions that will be covered in this project:
+This is an analysis on data analyst jobs based on a data set found on Kaggle. The data contains 2253 job listings for data analyst positions scraped from Glassdoor by picklesueat. My project motivation is to help people hone their job search and get their dream jobs faster!
 1. Which industries/sectors/states have higher demand for data analyst?
-2. What salaries can data analysts expect?
+2. How much salary can a data analyst expect to earn?
    * Min & Max Salary Distribution
    * Average Salary by "State"
    * Average Salary by "Type of Ownership"
-3. What features have more impact on the average salary?
+   * Average Salary by Company "Size"
+3. What are the most frequently appeared words in data analyst job descriptions?
+4. Which features have more impact on the average salary of a data analyst?
 
 ## File Description
 The csv file is downloaded from Kaggle, which is originally scraped from glassdoor. The jupyter notebook file contains codes of data preprocessing, data visualizations and a model prediciton of the average salary of data analyst.
